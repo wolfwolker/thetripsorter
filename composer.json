@@ -1,0 +1,25 @@
+{
+    "name": "ww/tripsorter",
+    "description": "It sorts your trip",
+    "type": "library",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.4",
+        "phpunit/phpunit": "^5.5",
+        "mockery/mockery": "^0.9.9"
+    },
+    "authors": [
+        {
+            "name": "Noel",
+            "email": "noelgarciamolina@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": { "": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": ["tests/"]}
+    }
+}
